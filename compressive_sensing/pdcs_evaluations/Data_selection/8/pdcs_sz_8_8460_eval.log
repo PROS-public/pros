@@ -1,0 +1,182 @@
+===================
+Focal Wavelet: bior6.8
+Focal M: 190
+Reading focal measurement matrix: ./phi_matrices/Phi_bin_190x750.csv
+Reading focal basis matrix: ./psi_matrices/inv_bior6.8_750.csv
+===================
+Gen Wavelet: db4
+Gen M: 150
+Reading Gen measurement matrix: ./phi_matrices/Phi_bin_150x750.csv
+Reading Gen basis matrix: ./psi_matrices/inv_db4_750.csv
+===================
+GTC Wavelet: sym14
+GTC M: 375
+Reading GTC measurement matrix: ./phi_matrices/Phi_bin_375x750.csv
+Reading GTC basis matrix: ./psi_matrices/inv_sym14_750.csv
+===================
+File: 1/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_104_4.csv
+Sens: 0.69444
+     0    11
+     1    25
+
+===================
+File: 2/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_108_4.csv
+Sens: 0.77358
+     0    12
+     1    41
+
+===================
+File: 3/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_10_0.csv
+Sens: 0.7
+     0    18
+     1    42
+
+===================
+File: 4/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_114_4.csv
+Sens: 0.72414
+     0    16
+     1    42
+
+===================
+File: 5/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_124_4.csv
+Sens: 1
+     1     7
+
+===================
+File: 6/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_127_5.csv
+Sens: 0.75
+     0     9
+     1    27
+
+===================
+File: 7/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_133_5.csv
+Sens: 0.80769
+     0     5
+     1    21
+
+===================
+File: 8/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_145_5.csv
+Sens: 0.65
+     0     7
+     1    13
+
+===================
+File: 9/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_25_1.csv
+Sens: 0.72727
+     0     9
+     1    24
+
+===================
+File: 10/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_27_1.csv
+Sens: 0.47059
+     0     9
+     1     8
+
+===================
+File: 11/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_29_1.csv
+Sens: 0.90909
+     0     3
+     1    30
+
+===================
+File: 12/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_2_0.csv
+Sens: 0.77778
+     0     8
+     1    28
+
+===================
+File: 13/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_31_1.csv
+Sens: 0.58333
+     0     5
+     1     7
+
+===================
+File: 14/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_35_1.csv
+Sens: 1
+     1    10
+
+===================
+File: 15/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_37_1.csv
+Sens: 0.90476
+     0     2
+     1    19
+
+===================
+File: 16/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_45_1.csv
+Sens: 0.95238
+     0     1
+     1    20
+
+===================
+File: 17/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_4_0.csv
+Sens: 0.75758
+     0    16
+     1    50
+
+===================
+File: 18/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s001_t000_6_0.csv
+Sens: 0.7971
+     0    14
+     1    55
+
+===================
+File: 19/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s004_t000_19_5.csv
+Sens: 0.44
+     0    14
+     1    11
+
+===================
+File: 20/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s004_t000_5_1.csv
+Sens: 0.5
+     0    11
+     1    11
+
+===================
+File: 21/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s004_t001_14_4.csv
+Sens: 0.86667
+     0     4
+     1    26
+
+===================
+File: 22/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s004_t001_16_4.csv
+Sens: 0.875
+     0     2
+     1    14
+
+===================
+File: 23/23
+Processing:/home/nhatpham/Desktop/PROS/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/0/00008460_s004_t001_5_1.csv
+Sens: 0.46667
+     0    16
+     1    14
+
+---- Total Preds ----- : 
+     0   192
+     1   545
+
+Sens: 0.73948
+pdcs_sz_eval(3)
+[Warning: File 'pdcs_sz_8_6546_eval.log' not found.] 
+[> In pdcs_sz_eval (line 21)] 

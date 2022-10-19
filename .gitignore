@@ -1,3 +1,7 @@
+# Build folder
+build
+Debug
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,19 @@
 *.exe
 *.out
 *.app
+/.metadata/
+
+# Others
+boost_1_75_0
+*.asv
+.DS_Store
+
+compressive_sensing/pdcs_evaluations/cs_eval_results/*.txt
+
+# cam-ml
+cam-ml/data/*
+compressive_sensing/pdcs_evaluations/input_signal.mat
+compressive_sensing/pdcs_evaluations/output_prs.mat
+*.pyc
+compressive_sensing/mcu_data_gen/output_prs.mat
+compressive_sensing/mcu_data_gen/input_signal.mat

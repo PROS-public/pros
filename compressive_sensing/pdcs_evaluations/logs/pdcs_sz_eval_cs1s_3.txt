@@ -1,0 +1,208 @@
+===================
+Window size: 750
+[Warning: Directory already exists.] 
+[> In pdcs_sz_eval_cs1s (line 51)] 
+===================
+Focal Wavelet: bior6.8
+Focal M: 45
+Reading focal measurement matrix: ./phi_matrices/Phi_bin_45x250.csv
+Reading focal basis matrix: ./psi_matrices/inv_bior6.8_250.csv
+===================
+Absence Wavelet: bior4.4
+Absence M: 50
+Reading Absence measurement matrix: ./phi_matrices/Phi_bin_50x250.csv
+Reading absence basis matrix: ./psi_matrices/inv_bior4.4_250.csv
+===================
+GTC Wavelet: sym14
+GTC M: 375
+Reading GTC measurement matrix: ./phi_matrices/Phi_bin_375x750.csv
+Reading GTC basis matrix: ./psi_matrices/inv_sym14_750.csv
+Reading data from: ../../../pattern_driven_datasets_nov21//seizure_patterns/seizure_patterns_test/15/
+===================
+File: 1/36
+Processing:/home/nhatpham/Documents/GitHub/pattern_driven_datasets_nov21/seizure_patterns/seizure_patterns_test/15/00008889_s002_t002_14_4.csv
+
+--------------------------------------------------------------------------------
+          Segmentation violation detected at 2022-05-10 10:36:53 +0100
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  Deployed                 : false
+  Desktop Environment      : ubuntu:GNOME
+  GNU C Library            : 2.31 stable
+  Graphics Driver          : Unknown hardware 
+  Graphics card 1          : 0x10de ( 0x10de ) 0x2204 Version 510.47.3.0 (0-0-0)
+  Graphics card 2          : 0x8086 ( 0x8086 ) 0x4c8a Version 0.0.0.0 (0-0-0)
+  MATLAB Architecture      : glnxa64
+  MATLAB Entitlement ID    : 871859
+  MATLAB Root              : /home/nhatpham/Programs/MATLAB/R2021b
+  MATLAB Version           : 9.11.0.1837725 (R2021b) Update 2
+  OpenGL                   : hardware
+  Operating System         : Ubuntu 20.04.4 LTS
+  Process ID               : 108582
+  Processor ID             : x86 Family 6 Model 167 Stepping 1, GenuineIntel
+  Session Key              : 70ff388d-c48a-4e61-b8e7-8f07722d06d3
+  Static TLS mitigation    : Enabled: Full
+  Window System            : The X.Org Foundation (12013000), display :0
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'MCR 0 interpret' id 139960758937344
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 00007f4b00000001
+  RCX = 00007f4b2f7a2cb0  RDX = 0000000000000000
+  RSP = 00007f4b2750bca0  RBP = 00007f4b2750c9d0
+  RSI = 00007f4b2f7a2cb0  RDI = 00007f4b2750caf0
+
+   R8 = 00007f4b2750cb00   R9 = 0000000000000000
+  R10 = 0000000000000000  R11 = 00007f4b00000001
+  R12 = 0000000000000001  R13 = 0000000000000002
+  R14 = 00007f4aa7fdeac8  R15 = 00007f4b2750cb00
+
+  RIP = 00007f4aa3a02a82  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00007f4aa3a02a82 /home/nhatpham/Programs/MATLAB/R2021b/bin/glnxa64/mkl.so+20654722 mkl_blas_avx512_xsdot+00001410
+[  1] 0x00007f4aa2d17138 /home/nhatpham/Programs/MATLAB/R2021b/bin/glnxa64/mkl.so+07106872 mkl_blas_xsdot+00000120
+[  2] 0x00007f4aa2c9163c /home/nhatpham/Programs/MATLAB/R2021b/bin/glnxa64/mkl.so+06559292 mkl_blas_sdot+00000796
+[  3] 0x00007f4aa2a9dcdf /home/nhatpham/Programs/MATLAB/R2021b/bin/glnxa64/mkl.so+04512991 mkl_blas__sdot+00000303
+[  4] 0x00007f4a8b691651 /home/nhatpham/anaconda3/lib/python3.9/site-packages/mkl/../../../libmkl_intel_lp64.so.1+02152017 cblas_sdot+00000033
+[  5] 0x00007f4aa0a25c82 /home/nhatpham/anaconda3/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so+00294018
+[  6] 0x00007f4aa0c70ac5 /home/nhatpham/anaconda3/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so+02697925
+[  7] 0x00007f4aa0ad98a5 /home/nhatpham/anaconda3/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so+01030309
+[  8] 0x00007f4aa0ad46ff /home/nhatpham/anaconda3/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so+01009407
+[  9] 0x00007f4ab6c2b6be       /home/nhatpham/anaconda3/lib/libpython3.9.so+01840830
+[ 10] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[ 11] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 12] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 13] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 14] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[ 15] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[ 16] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[ 17] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+[ 18] 0x00007f4ab6c020a9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01671337
+[ 19] 0x00007f4ab6bf781b       /home/nhatpham/anaconda3/lib/libpython3.9.so+01628187 PyVectorcall_Call+00000427
+[ 20] 0x00007f4ab6c7724a       /home/nhatpham/anaconda3/lib/libpython3.9.so+02150986 _PyEval_EvalFrameDefault+00023066
+[ 21] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 22] 0x00007f4ab6c215a7       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799591 _PyFunction_Vectorcall+00000311
+[ 23] 0x00007f4ab6c761c4       /home/nhatpham/anaconda3/lib/libpython3.9.so+02146756 _PyEval_EvalFrameDefault+00018836
+[ 24] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 25] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[ 26] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 27] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 28] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 29] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 30] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 31] 0x00007f4ab6c0df74       /home/nhatpham/anaconda3/lib/libpython3.9.so+01720180
+[ 32] 0x00007f4ab6c12628       /home/nhatpham/anaconda3/lib/libpython3.9.so+01738280 _PyObject_CallMethodIdObjArgs+00000312
+[ 33] 0x00007f4ab6bb27f9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01345529 PyImport_ImportModuleLevelObject+00001177
+[ 34] 0x00007f4ab6c75126       /home/nhatpham/anaconda3/lib/libpython3.9.so+02142502 _PyEval_EvalFrameDefault+00014582
+[ 35] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 36] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[ 37] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[ 38] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[ 39] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+[ 40] 0x00007f4ab6c020a9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01671337
+[ 41] 0x00007f4ab6bf781b       /home/nhatpham/anaconda3/lib/libpython3.9.so+01628187 PyVectorcall_Call+00000427
+[ 42] 0x00007f4ab6c7724a       /home/nhatpham/anaconda3/lib/libpython3.9.so+02150986 _PyEval_EvalFrameDefault+00023066
+[ 43] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 44] 0x00007f4ab6c215a7       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799591 _PyFunction_Vectorcall+00000311
+[ 45] 0x00007f4ab6c761c4       /home/nhatpham/anaconda3/lib/libpython3.9.so+02146756 _PyEval_EvalFrameDefault+00018836
+[ 46] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 47] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[ 48] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 49] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 50] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 51] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 52] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 53] 0x00007f4ab6c0df74       /home/nhatpham/anaconda3/lib/libpython3.9.so+01720180
+[ 54] 0x00007f4ab6c12628       /home/nhatpham/anaconda3/lib/libpython3.9.so+01738280 _PyObject_CallMethodIdObjArgs+00000312
+[ 55] 0x00007f4ab6bb27f9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01345529 PyImport_ImportModuleLevelObject+00001177
+[ 56] 0x00007f4ab6c75126       /home/nhatpham/anaconda3/lib/libpython3.9.so+02142502 _PyEval_EvalFrameDefault+00014582
+[ 57] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 58] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[ 59] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[ 60] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[ 61] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+[ 62] 0x00007f4ab6c020a9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01671337
+[ 63] 0x00007f4ab6bf781b       /home/nhatpham/anaconda3/lib/libpython3.9.so+01628187 PyVectorcall_Call+00000427
+[ 64] 0x00007f4ab6c7724a       /home/nhatpham/anaconda3/lib/libpython3.9.so+02150986 _PyEval_EvalFrameDefault+00023066
+[ 65] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 66] 0x00007f4ab6c215a7       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799591 _PyFunction_Vectorcall+00000311
+[ 67] 0x00007f4ab6c761c4       /home/nhatpham/anaconda3/lib/libpython3.9.so+02146756 _PyEval_EvalFrameDefault+00018836
+[ 68] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 69] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[ 70] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 71] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 72] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 73] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 74] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 75] 0x00007f4ab6c0df74       /home/nhatpham/anaconda3/lib/libpython3.9.so+01720180
+[ 76] 0x00007f4ab6c12628       /home/nhatpham/anaconda3/lib/libpython3.9.so+01738280 _PyObject_CallMethodIdObjArgs+00000312
+[ 77] 0x00007f4ab6bb27f9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01345529 PyImport_ImportModuleLevelObject+00001177
+[ 78] 0x00007f4ab6c75126       /home/nhatpham/anaconda3/lib/libpython3.9.so+02142502 _PyEval_EvalFrameDefault+00014582
+[ 79] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 80] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[ 81] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[ 82] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[ 83] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+[ 84] 0x00007f4ab6c020a9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01671337
+[ 85] 0x00007f4ab6bf781b       /home/nhatpham/anaconda3/lib/libpython3.9.so+01628187 PyVectorcall_Call+00000427
+[ 86] 0x00007f4ab6c7724a       /home/nhatpham/anaconda3/lib/libpython3.9.so+02150986 _PyEval_EvalFrameDefault+00023066
+[ 87] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[ 88] 0x00007f4ab6c215a7       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799591 _PyFunction_Vectorcall+00000311
+[ 89] 0x00007f4ab6c761c4       /home/nhatpham/anaconda3/lib/libpython3.9.so+02146756 _PyEval_EvalFrameDefault+00018836
+[ 90] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 91] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[ 92] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 93] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 94] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 95] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[ 96] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[ 97] 0x00007f4ab6c0df74       /home/nhatpham/anaconda3/lib/libpython3.9.so+01720180
+[ 98] 0x00007f4ab6c12628       /home/nhatpham/anaconda3/lib/libpython3.9.so+01738280 _PyObject_CallMethodIdObjArgs+00000312
+[ 99] 0x00007f4ab6bb27f9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01345529 PyImport_ImportModuleLevelObject+00001177
+[100] 0x00007f4ab6c75126       /home/nhatpham/anaconda3/lib/libpython3.9.so+02142502 _PyEval_EvalFrameDefault+00014582
+[101] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[102] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[103] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[104] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[105] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+[106] 0x00007f4ab6c020a9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01671337
+[107] 0x00007f4ab6bf781b       /home/nhatpham/anaconda3/lib/libpython3.9.so+01628187 PyVectorcall_Call+00000427
+[108] 0x00007f4ab6c7724a       /home/nhatpham/anaconda3/lib/libpython3.9.so+02150986 _PyEval_EvalFrameDefault+00023066
+[109] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[110] 0x00007f4ab6c215a7       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799591 _PyFunction_Vectorcall+00000311
+[111] 0x00007f4ab6c761c4       /home/nhatpham/anaconda3/lib/libpython3.9.so+02146756 _PyEval_EvalFrameDefault+00018836
+[112] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[113] 0x00007f4ab6c72071       /home/nhatpham/anaconda3/lib/libpython3.9.so+02130033 _PyEval_EvalFrameDefault+00002113
+[114] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[115] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[116] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[117] 0x00007f4ab6c71d06       /home/nhatpham/anaconda3/lib/libpython3.9.so+02129158 _PyEval_EvalFrameDefault+00001238
+[118] 0x00007f4ab6c21833       /home/nhatpham/anaconda3/lib/libpython3.9.so+01800243 _PyFunction_Vectorcall+00000963
+[119] 0x00007f4ab6c0df74       /home/nhatpham/anaconda3/lib/libpython3.9.so+01720180
+[120] 0x00007f4ab6c12628       /home/nhatpham/anaconda3/lib/libpython3.9.so+01738280 _PyObject_CallMethodIdObjArgs+00000312
+[121] 0x00007f4ab6bb27f9       /home/nhatpham/anaconda3/lib/libpython3.9.so+01345529 PyImport_ImportModuleLevelObject+00001177
+[122] 0x00007f4ab6c75126       /home/nhatpham/anaconda3/lib/libpython3.9.so+02142502 _PyEval_EvalFrameDefault+00014582
+[123] 0x00007f4ab6c20a3a       /home/nhatpham/anaconda3/lib/libpython3.9.so+01796666
+[124] 0x00007f4ab6c213e2       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799138 _PyEval_EvalCodeWithName+00000082
+[125] 0x00007f4ab6c21434       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799220 PyEval_EvalCodeEx+00000068
+[126] 0x00007f4ab6c2145c       /home/nhatpham/anaconda3/lib/libpython3.9.so+01799260 PyEval_EvalCode+00000028
+[127] 0x00007f4ab6cf3f80       /home/nhatpham/anaconda3/lib/libpython3.9.so+02662272
+
+** This crash report has been saved to disk as /home/nhatpham/matlab_crash_dump.108582-1 **
+
+
+
+MATLAB is exiting because of fatal error

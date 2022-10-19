@@ -1,0 +1,11 @@
+Link to the generated dataset for locality testing (13/10/22) is here:
+https://www.dropbox.com/sh/qurmfxcf0axtzpl/AABoT0CDZPziIrAEShFJblfEa?dl=0
+
+Format:
+4 channels.
+0 1 4 5
+Fs = 500Hz.
+Window size = 3s.
+Each data point has been multiplied by 10 and rounded to the nearest int.
+[1500 samples of channel 0] [1500 samples of channel 1] [1500 samples of channel 4] [1500 samples of channel 5] [1500 samples of channel 0] ...
+
